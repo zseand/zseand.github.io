@@ -1,0 +1,6 @@
+<IfModule mod_expires.c>
+  ExpiresActive off
+  <IfModule mod_headers.c>
+    Header append Cache-Control "public"
+  </IfModule>
+</IfModule>
